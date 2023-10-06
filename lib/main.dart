@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
               return ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-                  primary: isSelected ? Colors.orange : Colors.grey,
+                  backgroundColor: isSelected ? Colors.orange : Colors.grey,
                 ),
                 onPressed: () {
                   setState(() {
